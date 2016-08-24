@@ -1,0 +1,43 @@
+{
+  "extends": ["eslint:recommended"],
+  "ecmaFeatures": {
+    "modules": false,
+    "experimentalObjectRestSpread": false
+  },
+  "env": {
+    "es6": false,
+    "browser": true,
+    "node": false
+  },
+  "globals": {
+    "require": true,
+    "module":true,
+    "document":true,
+    "window": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "valid-jsdoc": [ 2, { "requireReturn": false }],
+    "block-scoped-var": 2,
+    "complexity": [1, 10],
+    "default-case": 2,
+    "dot-notation": 2,
+    "guard-for-in": 2,
+    //"no-alert": 2,
+    "no-div-regex": 2,
+    "no-else-return": 2,
+    "no-invalid-this": 2,
+    "no-loop-func": 2,
+    "no-param-reassign": 2,
+    "no-process-env": 2,
+    "no-script-url": 2,
+    "no-unused-expressions": 2,
+    "no-useless-concat": 2,
+    "no-void": 2,
+    "no-warning-comments": 1,
+    "vars-on-top": 2,
+    "no-shadow": 2,
+    "no-undefined": 2,
+    "no-use-before-define": 2
+  }
+}
