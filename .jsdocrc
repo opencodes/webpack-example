@@ -1,0 +1,12 @@
+{
+  "opts":{
+    "encoding": "utf8",
+    "destination": "./target/jsdoc/",
+    "recurse": true
+  },
+  "source": {
+    "include": [
+      "src/main/js"
+    ]
+  }
+}
